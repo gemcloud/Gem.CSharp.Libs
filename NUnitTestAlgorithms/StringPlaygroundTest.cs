@@ -28,5 +28,22 @@ namespace NUnitTestAlgorithms
             Assert.AreEqual(expectdString, result);
         }
 
+
+        [Test]
+        public void Practice20210126Test()
+        {
+            var result = Practice20210126.ReverseString(testString);
+            Assert.AreEqual(expectdString, result);
+            //Assert.Pass();
+        }
+
+        [Test]
+        public void Practice20210126TestForeach()
+        {
+            var result = Practice20210126.ReverseStringForeach(testString);
+            Assert.AreEqual(expectdString, result);
+            //Assert.Pass();
+        }
+
     }
 }
